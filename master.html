@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KUPAHIKE</title>
+
+        <link rel="stylesheet" href="./styles.css">
+
+
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <h1 class="logo">KUPAHIKE</h1>
+              <ul class="nav-links">
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="#"></a>Tours</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                <li class="ctn"><a  href="#">contact</a>
+              </ul>
+              <img src="./mnyama.png" alt="" class="menu-btn">
+
+            </nav>
+        <header>
+            <div class="header-content">
+                <h2>Explore The Colorful World</h2>
+                <div class="line"></div>
+                <h1>A KUPAHIKE GIFT</h1>
+                <a href="#" class="ctn">Learn More</a>
+
+            </div>
+        </header>
+
+        <!-- Events -->
+        
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Event</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./joonijoo.png" alt="">
+                    <h4>Everest Camp treck</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, quibusdam ab? Dolorem autem cupiditate libero odit nam, atque voluptate? Enim atque a sequi repellat et distinctio provident sapiente nulla rem.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="./nature.png" alt="">
+                    <h4>Walking Hollday</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, quibusdam ab? Dolorem autem cupiditate libero odit nam, atque voluptate? Enim atque a sequi repellat et distinctio provident sapiente nulla rem.</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="explore">
+         <h1>EXPLORE THE WORLD</h1> 
+         <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, quibusdam ab? Dolorem autem cupiditate libero odit nam, atque voluptate? Enim atque a sequi repellat et distinctio provident sapiente nulla rem.</P>
+          <a href="#" class="ctn">Learn More</a> 
+        </section>
+        
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+         
+    </body>
+</html>
